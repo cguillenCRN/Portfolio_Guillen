@@ -1,0 +1,322 @@
+body {
+  background-color: skyblue   ;
+  animation-duration: 9s;
+  animation-name: cielo;
+  animation-fill-mode: both;
+}
+
+@keyframes cielo{
+  from {
+    background-color: skyblue;
+  }
+  to{
+    background-color: black;
+  }
+}
+
+#cesped {
+    width: 150%;
+    height: 222px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    bottom: -0px;
+}
+
+#fachada {
+  width: 200px;
+  height: 200px;
+  background-color: #7BFF50;
+  position: absolute;
+  left: 400px;
+  top: 531px;
+}
+
+#tejado {
+  clip-path: polygon(50% 69%, 0% 100%, 100% 100%);
+  width: 250px;
+  height:250px;
+  background-color: #50FFEA;
+  position: absolute;
+  left: 375px;
+  top: 281px;
+  z-index: 3;
+}
+
+#ventana {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+}
+
+.ventana1 {
+  left: 430px;
+  top:555px;
+}
+
+.ventana2 {
+  left: 530px;
+  top:555px;
+}
+
+#puerta {
+  width: 45px;
+  height: 70px;
+  background-color: #862000;
+  position: absolute;
+  left: 475px;
+  top: 670px;
+}
+
+#chimenea {
+  width: 35px;
+  height: 60px;
+  background-color: brown;
+  position: absolute;
+  left: 550px;
+  top: 450px;
+  z-index: 2;
+}
+
+#sol {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: absolute;
+  left: 1000px;
+  top: 5%;
+  border-radius: 50%;
+  right:calc(20%-100%);
+  box-shadow: 0px 0px 115px #ffff33;
+  animation-duration: 3s;
+  animation-name: solito;
+  animation-fill-mode: both;
+  z-index: -2;
+}
+
+@keyframes solito{
+  from {
+    background-color: yellow;
+    top: 5%;
+    left: 1000px;
+  }
+  to{
+    background-color: orange;
+    top: 800px;
+  }
+}
+
+#luna {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  left: 1000px;
+  top: 5%;
+  border-radius: 50%;
+  right:calc(20%-100%);
+  box-shadow: 0px 0px 115px #DBDADA;
+  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-name: lunita;
+  animation-fill-mode: both;
+  z-index: -2;
+}
+
+@keyframes lunita{
+  from {
+    background-color: white;
+    top: 800px;
+    left: 1000px;
+  }
+  to{
+    background-color: white;
+    top: 5%;
+  }
+}
+
+.humo {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  top: 360px;
+  left: 530px;
+  opacity: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.humo:after {
+  content:'';
+  border-radius: 50%;
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -170px;
+  left: 150px;
+  opacity: 30%;
+}
+
+.humo:before {
+  content:'';
+  border-radius: 50%;
+  background-color: grey;
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: -70px;
+  left: 70px;
+  opacity: 50%;
+}
+
+#palo1 {
+  background-color: #004A1B;
+  height: 100px;
+  width: 20px;
+  position: absolute;
+  top: 660px;
+  left:130px;
+}
+
+#petalos1 {
+  clip-path: polygon(0% 15%, 33% 41%, 15% 0%, 85% 0%, 65% 40%, 100% 15%, 100% 85%, 67% 61%, 85% 100%, 15% 100%, 15% 100%, 30% 63%, 0% 85%);
+  background-color: #BA2323;
+  width: 100px;
+  height: 100px;
+  top: 600px;
+  left: 92px;
+  position: absolute;
+  border-radius: 50%;
+  animation: florita linear 3s infinite;
+}
+
+#petalos1:after{
+  content: '';
+  background-color: yellow;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 35px;
+  left: 33px;
+}
+
+#palo2{
+  background-color: #004A1B;
+  height: 100px;
+  width: 20px;
+  position: absolute;
+  top: 660px;
+  left:240px;
+}
+
+#petalos2 {
+  clip-path: polygon(0% 15%, 33% 41%, 15% 0%, 85% 0%, 65% 40%, 100% 15%, 100% 85%, 67% 61%, 85% 100%, 15% 100%, 15% 100%, 30% 63%, 0% 85%);
+  background-color: #C6711B;
+  width: 100px;
+  height: 100px;
+  top: 600px;
+  left:200px;
+  position: absolute;
+  border-radius: 50%;
+  animation: florita linear 3s infinite;
+}
+
+#petalos2:after{
+  content: '';
+  background-color: yellow;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 35px;
+  left: 33px;
+}
+
+@keyframes florita{
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+
+#cloud:after {
+	width: 100px; height: 100px;
+	top: -50px; left: 50px;
+	border-radius: 100px;
+}
+
+#cloud:before {
+	width: 200px; height: 200px;
+	top: -90px; right: 50px;
+	border-radius: 200px;
+}
+
+#cloud:after, #cloud:before {
+	content: '';
+	position: absolute;
+	background: #FFF;
+	z-index: -1;
+}
+
+#cloud {
+	width: 350px; height: 120px;
+	background: #BFF;
+	background: linear-gradient(top, #BFF 5%, #DFF 100%);
+	background: -webkit-linear-gradient(top, #FFF 1%, #BFF 100%);
+	background: -moz-linear-gradient(top, #BFF 5%, #DFF 100%);
+	background: -ms-linear-gradient(top, #BFF 5%, #DFF 100%);
+	background: -o-linear-gradient(top, #BFF 5%, #DFF 100%);
+	top: 50px; left: 50px;
+	border-radius: 100px;
+	position: absolute;
+	margin: 120px auto 20px;
+  animation: nube linear 6s;
+  animation-fill-mode: both;
+}
+
+@keyframes nube {
+  from {top: 50px; left: 50px;}
+  to {top: 710px; left: 1200px;}
+}
+
+#montaña1 {
+  clip-path: polygon(19% 100%, 19% 84%, 23% 60%, 28% 41%, 30% 20%, 41% 9%, 50% 34%, 55% 51%, 55% 70%, 61% 94%, 68% 100%);
+  top: 240px;
+  left: -100px;
+  height: 700px;
+  width: 620px;
+  background-color: #6F2717;
+  position: absolute;
+}
+
+#montaña2 {
+  clip-path: polygon(19% 100%, 24% 85%, 24% 71%, 31% 48%, 33% 28%, 41% 9%, 58% 22%, 61% 41%, 64% 60%, 65% 82%, 68% 100%);
+  top: 290px;
+  left: 100px;
+  height: 700px;
+  width: 620px;
+  background-color: #47190E;
+  position: absolute;
+}
+
+#montaña3 {
+  clip-path: polygon(10% 100%, 17% 81%, 25% 59%, 35% 37%, 40% 18%, 43% 0, 56% 13%, 60% 40%, 68% 68%, 71% 87%, 80% 100%);
+  top: 240px;
+  left: 400px;
+  height: 700px;
+  width: 620px;
+  background-color: #633F36;
+  position: absolute;
+}
+
+#montaña4 {
+  clip-path: polygon(23% 100%, 25% 77%, 34% 54%, 38% 35%, 37% 18%, 40% 0, 54% 22%, 60% 40%, 68% 68%, 71% 87%, 80% 100%);
+  top: 290px;
+  left: 600px;
+  height: 700px;
+  width: 620px;
+  background-color: #3E2C27;
+  position: absolute;
+}

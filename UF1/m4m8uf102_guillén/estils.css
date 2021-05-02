@@ -1,0 +1,126 @@
+body {
+  background-color: cyan;
+}
+
+#cara {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  height: 250px;
+  width: 280px;
+  border-radius: 0% 0% 56% 58% / 12% 11% 90% 88% ;
+  background-color: #d49e7a;
+}
+
+#pelo {
+  background-color: brown;
+  position: relative;
+  width: 590px;
+  height: 400px;
+  top: -150px;
+  left: 267px;
+  clip-path: polygon(21% 86%, 37% 91%, 61% 90%, 72% 85%, 82% 75%, 71% 70%, 56% 68%, 40% 70%, 26% 78%);
+}
+
+#ojos {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+}
+
+#iris {
+  width: 17px;
+  height: 17px;
+  background-color: #291709;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+#pupila {
+  background-color: black;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: relative;
+  left: 4px;
+  top: 4px;
+}
+
+#cejas{
+  clip-path: polygon(8% 66%, 18% 58%, 29% 56%, 46% 57%, 53% 58%, 51% 66%, 39% 65%, 27% 64%);
+  background-color: brown;
+  height: 80px;
+  width: 140px;
+
+}
+
+#boca {
+   width: 100px;
+   height: 40px;
+   background: #b27367;
+   -moz-border-radius: 100px 100px 0 0;
+   -webkit-border-radius: 100px 100px 0 0;
+   border-radius: 100px 100px 0 0;
+   -moz-transform: scaleY(-1);
+   -o-transform: scaleY(-1);
+   -webkit-transform: scaleY(-1);
+   transform: scaleY(-1);
+   -ms-filter: "FlipV";
+   filter: FlipV;
+   position: absolute;
+   bottom: 70px;
+   left: 90px;
+}
+
+#cuello {
+    width: 60px;
+    height: 50px;
+    background-color: #d49e7a;
+    position: absolute;
+    top: 425px;
+    left: 507px
+}
+
+#cuerpo {
+  background-color: blue;
+  height: 400px;
+  width: 300px;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  top: 460px;
+  left:  390px;
+}
+
+.ceja1{
+  position: absolute;
+  top: -5px;
+  left: 30px;
+}
+
+.ceja2 {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: "FlipH";
+  filter: FlipH;
+  position: absolute;
+  top: -5px;
+  right: 30px;
+}
+
+.ojo1 {
+  position: absolute;
+  left: 65px;
+  top: 55px;
+  float: left;
+}
+
+.ojo2 {
+  position: absolute;
+  right: 65px;
+  top: 55px;
+}
