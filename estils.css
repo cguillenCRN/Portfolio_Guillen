@@ -2,6 +2,10 @@ body {
   background-color: purple;
 }
 
+img {
+    width: 400px;
+    height: 250px;
+}
 
 #contenedor {
   width: 1560px;
