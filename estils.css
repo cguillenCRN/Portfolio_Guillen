@@ -22,18 +22,18 @@ img {
 }
 
 .enlaceinfo {
-  background-color: white;
   width: 300px;
   height: 50px;
+  background-color: white;
   margin: 115px 20px 20px 20px;
   float: left;
 }
+
 
 .button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-
     text-decoration: none;
     color: initial;
 }
