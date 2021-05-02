@@ -1,0 +1,39 @@
+div {
+  width: 100px;
+  height: 100px;
+}
+
+#A {
+  background-color: navy;
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#B {
+  background-color: blue;
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  position: relative;
+  top: 25px;
+  left: 50px;
+}
+
+#C {
+  background-color: cyan;
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#D{
+  background-color: #5d9d9d;
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

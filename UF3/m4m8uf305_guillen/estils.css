@@ -1,0 +1,39 @@
+body{
+  background-color: cyan;}
+
+#contenedor{
+  background-color:white;
+  position: absolute;
+  top: 25px; left: 25px; right: 25px; bottom: 0px;
+}
+
+h1{
+  margin-top:0px;
+  text-align: center;
+  font-size:45px;
+}
+
+img{
+  width:400px;
+  float:left;
+}
+
+.f1{
+  width: 350px;
+  float: left;
+  margin: 10px;
+  margin-left:20px;
+  margin-top: 0px;
+}
+
+.f2{
+  float: right;
+  width: 200px;
+  margin: 10px;
+  margin-left:20px;
+  margin-top: 0px;
+}
+
+.pcent{
+  text-align: center;
+}

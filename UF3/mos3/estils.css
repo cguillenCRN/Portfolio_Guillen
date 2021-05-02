@@ -1,0 +1,53 @@
+#uno {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border: dashed 2px;
+  border-color: aa0000;
+  border-radius: 0 85px 0 85px;
+}
+
+#dos {
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  border: dashed 2px;
+  border-color: ff6666;
+  border-radius: 85px 0 85px 0;
+}
+
+#tres {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  border: dashed 2px;
+  border-color: ffcc33;
+  border-radius: 0 85px 0 85px;
+}
+
+#cuatro {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+  border: dashed 2px;
+  border-color: 005500;
+  border-radius: 85px 0 85px 0;
+}
+
+#cinco {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  border: dashed 2px;
+  border-color: 000077;
+  border-radius: 0 85px 0 85px;
+}
+
+#seis {
+  height: 150px;
+  width: 150px;
+  background-color: purple;
+  border: dashed 2px;
+  border-color: 550055;
+  border-radius: 85px 0 85px 0;
+}
