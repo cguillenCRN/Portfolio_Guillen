@@ -1,0 +1,71 @@
+body {
+  background-color: magenta;
+}
+
+.cuadrados {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: pink;
+}
+
+#uno {
+  background-color: #FF3333;
+}
+
+#dos {
+  background-color: #FF7733;
+}
+
+#tres {
+  background-color: #FFCE33;
+}
+
+#cuatro {
+  background-color: #A0FF33;
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+  body{
+    background-color: #33FF66;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body{
+    background-color: #33FFB5;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #uno{
+    background-color: #33D0FF;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #dos{
+    background-color: #3356FF;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #tres{
+    background-color: #8533FF;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #cuatro{
+    background-color: #EF33FF;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #dos{
+    background-color: #FF3370;
+  }
+}

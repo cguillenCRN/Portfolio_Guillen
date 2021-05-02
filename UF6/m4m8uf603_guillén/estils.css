@@ -1,0 +1,34 @@
+
+#Header {
+  width: 0 auto;
+  height: 50px;
+  background-color: #FF7B33;
+  text-align: center;
+}
+
+div {
+  float: left;
+}
+
+.cuadrados {
+width: 100px;
+height: 100px;
+
+}
+
+#uno {
+  background-color: #FF3333;
+}
+
+#dos {
+  background-color: #FF3333;
+}
+
+#tres {
+  background-color: #FF3333;
+}
+
+#cuatro {
+
+  background-color: #FF3333;
+}

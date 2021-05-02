@@ -1,0 +1,67 @@
+@media screen and (min-width: 424px) and (max-width: 768px){
+  body {
+    background-color: #D44CD6;
+  }
+  #principal {
+    width:700px;
+    margin-left: 6px;
+    margin-top: 6px;
+  }
+
+  #header {
+    width: 690px;
+    height: 50px;
+    margin-top:5px;
+    margin-left: 6px;
+    background-color: #D15B14;
+    text-align: center;
+  }
+
+  #titol {
+    width: 690px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 6px;
+    background-color: #D83131;
+    text-align: center;
+  }
+
+  #footer {
+    width: 690px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 6px;
+    background-color: #4ECD17;
+    text-align: center;
+  }
+
+  .cuadrados {
+    background-color: #D83131;
+    margin-left: 6px;
+    margin-top: 6px;
+    text-align: center;
+    float: left;
+    width: 339px;
+    height: 339px;
+
+  }
+
+  #uno {
+    margin-top: 30px;
+  }
+
+  #dos {
+    margin-top: 30px;
+  }
+
+  #tres {
+    clear: both;
+    float: left;
+  }
+
+  #cuatro {
+  }
+
+}
+
+}

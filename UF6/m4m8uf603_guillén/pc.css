@@ -1,0 +1,68 @@
+@media screen and (min-width: 769px){
+  body {
+    background-color: #D44CD6;
+  }
+  #principal {
+    width:1800px;
+    margin-left: 6px;
+    margin-top: 6px;
+  }
+
+  #header {
+    width: 1790px;
+    height: 50px;
+    margin-top:5px;
+    margin-left: 6px;
+    background-color: #B75418;
+    text-align: center;
+  }
+
+  #titol {
+    width: 1790px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 6px;
+    background-color: #932727;
+    text-align: center;
+  }
+
+  #footer {
+    width: 1790px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 6px;
+    background-color: #307C0F;
+    text-align: center;
+  }
+
+  .cuadrados {
+    background-color: #932727;
+    margin-left: 6px;
+    margin-top: 6px;
+    text-align: center;
+    float: left;
+    width: 443px;
+    height: 443px;
+
+  }
+
+  #uno {
+    margin-top: 30px;
+    float: left;
+  }
+
+  #dos {
+    margin-top: 30px;
+    float: left;
+  }
+
+  #tres {
+    float: left;
+    margin-top: 30px;
+  }
+
+  #cuatro {
+    float: left;
+    margin-top: 30px;
+  }
+}
