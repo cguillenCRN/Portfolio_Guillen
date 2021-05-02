@@ -21,8 +21,9 @@ img {
   float: left;
 }
 
-.enlaceinfo{
-   width: 300px;
+.enlaceinfo {
+  background-color: white;
+  width: 300px;
   height: 50px;
   margin: 115px 20px 20px 20px;
   float: left;
