@@ -26,6 +26,8 @@ img {
   height: 50px;
   margin: 115px 20px 20px 20px;
   float: left;
+  text-align: center;
+  vertical-align: center;
 }
 
 .button {
@@ -34,6 +36,8 @@ img {
   appearance: button;
   text-decoration: none;
   color: initial;
+  text-align: center;
+  vertical-align: center;
 }
 
 .contenido__video{
