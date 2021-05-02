@@ -27,11 +27,10 @@ img {
   height: 50px;
   margin: 115px 20px 20px 20px;
   float: left;
-   -webkit-appearance: button;
+  -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
   text-decoration: none;
-  color: initial;
 }
 
 .contenido__video{
