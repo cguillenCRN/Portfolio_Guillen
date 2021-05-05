@@ -22,15 +22,12 @@ img {
   float: left;
 }
 
-.enlaceinfo {
+.submit {
   width: 300px;
   height: 50px;
   margin: 115px 20px 20px 20px;
   float: left;
   text-align: center;
-}
-
-.submit {
   background-color: black;
   color: white;
 }
