@@ -5,9 +5,8 @@ body {
 }
 
 img {
-    width: 340px;
-    height: 190px;
-    margin: 20px;
+    width: 400px;
+    height: 200px;
 }
 
 #contenedor {
@@ -21,7 +20,6 @@ img {
   height: 250px;
   margin: 20px;
   float: left;
-  background-color: white;
 }
 
 .submit {
